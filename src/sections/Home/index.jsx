@@ -3,6 +3,8 @@ import { Container, MainSection } from './styles';
 import { Title } from '../../components/Title';
 import { BoldText } from '../../components/BoldText';
 
+import SecurityImg from '../../assets/images/security-img.svg';
+
 export const Home = () => {
   return (
     <Container>
@@ -10,7 +12,7 @@ export const Home = () => {
       <MainSection>
         <div className="left-container">
           <BoldText className="uptitle">Nós somos o futuro</BoldText>
-          <Title>
+          <Title className="title">
             Segurança do Trabalho
           </Title>
           <BoldText className="subtitle">
@@ -19,7 +21,7 @@ export const Home = () => {
 
         </div>
         <div className="right-container">
-          b
+          <img src={SecurityImg} alt="security-img" />
         </div>
       </MainSection>
     </Container>

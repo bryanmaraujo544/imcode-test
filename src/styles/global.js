@@ -22,8 +22,16 @@ const global = createGlobalStyle`
     text-decoration: none;
   }
 
-  html: {
+  html {
     font-size: 62.5%;
+
+    @media (max-width: 768px) {
+      font-size: 8px;
+    }
+
+    @media (max-width: 468px) {
+      font-size: 6px;
+    }
   }
 
   body {

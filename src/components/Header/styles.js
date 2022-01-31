@@ -19,7 +19,7 @@ export const Container = styled.header`
 export const ListItem = styled.li`
 
   font-weight: 900;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   padding: 0 .4rem .8rem .4rem;
 
   ${({ isActive }) => isActive && css`
