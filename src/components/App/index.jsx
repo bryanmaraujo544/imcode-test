@@ -7,6 +7,7 @@ import { MobileApp } from '../../sections/MobileApp';
 import { Home } from '../../sections/Home';
 import { Services } from '../../sections/Services';
 import { Project } from '../../sections/Project';
+import { Functionalities } from '../../sections/Functionalities';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <MobileApp />
           <Services />
           <Project />
+          <Functionalities />
         </Container>
 
       </ThemeProvider>
