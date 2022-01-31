@@ -8,6 +8,7 @@ import { Home } from '../../sections/Home';
 import { Services } from '../../sections/Services';
 import { Project } from '../../sections/Project';
 import { Functionalities } from '../../sections/Functionalities';
+import { OurValues } from '../../sections/OurValues';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Services />
           <Project />
           <Functionalities />
+          <OurValues />
         </Container>
 
       </ThemeProvider>
