@@ -6,11 +6,20 @@ const global = createGlobalStyle`
     margin: 0;
     border: none;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 
-  button {
+  p, h1, h2, h3, h4, h5, h6 {
+    line-height: 1.5;
+  }
+
+  button, li {
     cursor: pointer;
+  }
+
+  li, a {
+    list-style: none;
+    text-decoration: none;
   }
 
   html: {
