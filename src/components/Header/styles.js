@@ -24,6 +24,6 @@ export const ListItem = styled.li`
 
   ${({ isActive }) => isActive && css`
   
-    border-bottom: 2px solid ${({ theme }) => theme.green};
+    border-bottom: 2px solid ${({ theme }) => theme.green[100]};
   `};
 `;

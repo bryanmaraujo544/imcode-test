@@ -12,19 +12,23 @@ export const MainSection = styled.div`
   grid-template-columns: repeat(2, 1fr);
   margin-top: 3.2rem;
 
-  @media (max-width: 468px) {
+  @media (max-width: 768px) {
+    grid-template-columns: 1.25fr 1fr;
+  }
+
+  @media (max-width: 668px) {
     grid-template-columns: 1fr;
   }
 
   .left-container {
     padding: 9.6rem;
     padding-left: 12.8rem;
-    background: ${({ theme }) => theme.green};
-    border-radius: 0rem 3.2rem 3.2rem 0;
+    background: ${({ theme }) => theme.green[100]};
+    border-radius: 0rem 4.8rem 4.8rem 0;
     margin-right: 3.2rem;
 
     @media (max-width: 768px) {
-      padding: 3.2rem;
+      padding: 4.8rem;
     }
 
     .title {
@@ -48,14 +52,14 @@ export const MainSection = styled.div`
     justify-content: center;
 
     @media (max-width: 768px) {
-      padding: 3.2rem;
+      padding: 4.8rem;
     }
 
     img {
-      width: 85%;
+      width: 90%;
       object-fit: container;
 
-      @media (max-width: 468px) {
+      @media (max-width: 768px) {
         width: 65%;
       }
     }

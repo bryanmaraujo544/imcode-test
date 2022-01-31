@@ -1,7 +1,7 @@
 import { Header } from '../../components/Header';
 import { Container, MainSection } from './styles';
 import { Title } from '../../components/Title';
-import { BoldText } from '../../components/BoldText';
+import { Text } from '../../components/Text';
 
 import SecurityImg from '../../assets/images/security-img.svg';
 
@@ -11,13 +11,13 @@ export const Home = () => {
       <Header />
       <MainSection>
         <div className="left-container">
-          <BoldText className="uptitle">Nós somos o futuro</BoldText>
+          <Text className="uptitle">Nós somos o futuro</Text>
           <Title className="title">
             Segurança do Trabalho
           </Title>
-          <BoldText className="subtitle">
+          <Text className="subtitle">
             O projeto destinado a revolucionar a área de segurança do trabalho
-          </BoldText>
+          </Text>
 
         </div>
         <div className="right-container">

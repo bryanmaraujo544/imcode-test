@@ -26,11 +26,11 @@ const global = createGlobalStyle`
     font-size: 62.5%;
 
     @media (max-width: 768px) {
-      font-size: 8px;
+      font-size: 9px;
     }
 
     @media (max-width: 468px) {
-      font-size: 6px;
+      font-size: 8px;
     }
   }
 
