@@ -2,8 +2,7 @@ import { useState } from 'react';
 import { Container } from './styles';
 import { Title } from '../../components/Title';
 
-import { AnimatePresence, AnimateSharedLayout, motion } from 'framer-motion';
-
+import { AnimatePresence, motion } from 'framer-motion';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 
 import Img1 from '../../assets/images/img1.jpg';
@@ -14,6 +13,7 @@ import Img3 from '../../assets/images/img3.jpg';
 export const Services = () => {
   const [images, setImages] = useState([Img1, Img2, Img3]);
 
+  // This two function below is responsible to reorganize the arrays of images
   function handlePassToNextSlide() {
     setImages((prevImages) => {
       const [firstImg, secondImg, thirdImg] = prevImages;
@@ -27,7 +27,7 @@ export const Services = () => {
       return [secondImg, thirdImg, firstImg];
     });
   }
-  
+
   return (
     <Container>
       <Title className="title">

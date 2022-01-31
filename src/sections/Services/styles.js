@@ -7,7 +7,6 @@ export const Container = styled.section`
   flex-direction: column;
   align-items: center;
   
-  margin-bottom: 64px;
   .title {
     max-width: 420px;
   }
