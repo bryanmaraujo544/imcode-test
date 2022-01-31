@@ -9,6 +9,7 @@ import { Services } from '../../sections/Services';
 import { Project } from '../../sections/Project';
 import { Functionalities } from '../../sections/Functionalities';
 import { OurValues } from '../../sections/OurValues';
+import { Footer } from '../../sections/Footer';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Project />
           <Functionalities />
           <OurValues />
+          <Footer />
         </Container>
 
       </ThemeProvider>

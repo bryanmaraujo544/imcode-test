@@ -85,6 +85,11 @@ export const Container = styled.section`
       font-size: 4.8rem;
       color: #fff;
       cursor: pointer;
+      transition: color .2s ease-in;
+      
+      &:hover {
+        color: #ccc;
+      }
     }
   }
 
