@@ -1,9 +1,8 @@
 import { Container } from './styles';
-
 import { Title } from '../../components/Title';
 import MobileImg from '../../assets/images/mobile-app.svg';
-import { Text } from '../../components/Text';
 
+import { Text } from '../../components/Text';
 import { IoIosUnlock } from 'react-icons/io';
 import { AiFillCheckCircle, AiFillApple, AiFillAndroid } from 'react-icons/ai';
 import { BsFillBellFill } from 'react-icons/bs';
@@ -26,7 +25,7 @@ const qualitiesData = [
 
 export const MobileApp = () => {
   return (
-    <Container>
+    <Container className="section">
       <div className="mobile-img-container">
         <img src={MobileImg} alt="mobile-image" />
       </div>

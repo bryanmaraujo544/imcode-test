@@ -4,7 +4,6 @@ import { Title } from '../../components/Title';
 
 import { AnimatePresence, motion } from 'framer-motion';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
-
 import Img1 from '../../assets/images/img1.jpg';
 import Img2 from '../../assets/images/img2.jpg';
 import Img3 from '../../assets/images/img3.jpg';
@@ -29,7 +28,7 @@ export const Services = () => {
   }
 
   return (
-    <Container>
+    <Container className="section">
       <Title className="title">
         Várias funções em um único lugar.
       </Title>

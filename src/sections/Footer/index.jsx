@@ -1,5 +1,4 @@
 import { Container } from './styles';
-
 import { Title } from '../../components/Title';
 import { Text } from '../../components/Text';
 
@@ -9,7 +8,7 @@ import { GiShakingHands } from 'react-icons/gi';
 
 export const Footer = () => {
   return (
-    <Container>
+    <Container className="section" id="Contato">
       <div className="left-container">
         <div className="contact-container">
           <BsArrowRightCircle className="arrow-icon" />
@@ -28,7 +27,7 @@ export const Footer = () => {
           <Text className="donation-text" isBold isBlack>Nos ajude com qualquer quantia</Text>
         </div>
       </div>
-      <div className="right-container">
+      <div className="right-container" id="Equipe">
         <div className="infos-box">
           <div className="header">
             <p className="uptitle">Idealizador</p>

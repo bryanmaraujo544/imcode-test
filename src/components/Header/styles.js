@@ -5,8 +5,10 @@ export const Container = styled.header`
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 1.6rem;
-  margin-top: 2.4rem;
+  padding: 2.8rem;
+  position: fixed;
+  background: #fff;
+  z-index: 99999;
 
   .list-container {
     display: flex;
@@ -17,13 +19,15 @@ export const Container = styled.header`
   `;
 
 export const ListItem = styled.li`
+  a {
 
-  font-weight: 900;
-  font-size: 1.8rem;
-  padding: 0 .4rem .8rem .4rem;
-
-  ${({ isActive }) => isActive && css`
+    font-weight: 900;
+    font-size: 1.8rem;
+    padding: 0 .4rem .8rem .4rem;
   
-    border-bottom: 2px solid ${({ theme }) => theme.green[100]};
-  `};
+    &.isActive{
+      border-bottom: 2px solid ${({ theme }) => theme.green[100]};
+    };
+
+  }
 `;

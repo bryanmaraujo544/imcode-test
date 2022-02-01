@@ -1,4 +1,3 @@
-import { Header } from '../../components/Header';
 import { Container, MainSection } from './styles';
 import { Title } from '../../components/Title';
 import { Text } from '../../components/Text';
@@ -7,8 +6,7 @@ import SecurityImg from '../../assets/images/security-img.svg';
 
 export const Home = () => {
   return (
-    <Container>
-      <Header />
+    <Container className="section" id="Início">
       <MainSection>
         <div className="left-container">
           <Text className="uptitle">Nós somos o futuro</Text>

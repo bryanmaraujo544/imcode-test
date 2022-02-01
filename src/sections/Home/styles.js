@@ -4,13 +4,14 @@ export const Container = styled.section`
   width: 100%;
   display: flex;
   flex-direction: column;
+  padding-top: 3.2rem;
 `;
 
 export const MainSection = styled.div`
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-top: 3.2rem;
+  margin-top: 12.8rem;
 
   @media (max-width: 768px) {
     grid-template-columns: 1.25fr 1fr;

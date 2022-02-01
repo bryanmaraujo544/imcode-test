@@ -4,6 +4,7 @@ export const Container = styled.footer`
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   width: 100%;
+  margin-bottom: 3.2rem;
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr ;

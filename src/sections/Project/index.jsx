@@ -1,14 +1,14 @@
 import { Container } from './styles';
 import { Title } from '../../components/Title';
 import { Text } from '../../components/Text'
-import Collab from '../../assets/images/collab.svg';
 
+import Collab from '../../assets/images/collab.svg';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { BsInstagram } from 'react-icons/bs';
 
 export const Project = () => {
   return (
-    <Container>
+    <Container className="section" id="Projeto">
       <Title>Projeto</Title>
       <div className="main-container">
         <div className="left-container">

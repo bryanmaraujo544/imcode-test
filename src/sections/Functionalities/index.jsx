@@ -25,7 +25,7 @@ const functionalities = [
 
 export const Functionalities = () => {
   return (
-    <Container>
+    <Container className="section">
       <div className="left-container">
         <h3 className="title">
           Os 4 <br />mestres.

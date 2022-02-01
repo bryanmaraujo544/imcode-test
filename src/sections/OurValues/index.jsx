@@ -4,7 +4,7 @@ import { Container } from './styles';
 
 export const OurValues = () => {
   return (
-    <Container>
+    <Container className="section">
       <div className="left-container">
         <Title className="title">Nossos Valores</Title>
         <Text isBlack isBold>A wendy tem como foco trazer o máximo de segurança e respeito para os trabalhadores, queremos levar nossa perspectiva de segurança do trabalho combinando design e tecnologia.</Text>
